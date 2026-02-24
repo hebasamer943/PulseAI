@@ -1,0 +1,140 @@
+/* ===== RedPulse Theme (Red / Black) ===== */
+
+* {
+  font-family: "Segoe UI";
+  font-size: 12pt;
+}
+
+QMainWindow, QWidget {
+  background: #0b0b0f;
+  color: #eaeaf2;
+}
+
+QFrame#Card {
+  background: rgba(18, 18, 24, 0.94);
+  border: 1px solid rgba(255, 60, 60, 0.18);
+  border-radius: 16px;
+}
+
+QLabel#H1 {
+  font-size: 26pt;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+QLabel#H2 {
+  font-size: 16pt;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+QLabel#Muted {
+  color: rgba(255,255,255,0.70);
+}
+
+/* Big BPM number (Hardware card) */
+QLabel#BPM {
+  font-size: 34pt;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+/* Prediction badge (dynamic colors by state) */
+QLabel#Badge {
+  font-size: 14pt;
+  font-weight: 900;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.14);
+  color: #ffffff;
+}
+
+QLabel#Badge[state="unknown"] {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.14);
+  color: rgba(255,255,255,0.85);
+}
+
+QLabel#Badge[state="normal"] {
+  background: rgba(80, 255, 140, 0.18);
+  border: 1px solid rgba(80, 255, 140, 0.45);
+  color: #dfffea;
+}
+
+QLabel#Badge[state="abnormal"] {
+  background: rgba(255, 60, 60, 0.20);
+  border: 1px solid rgba(255, 60, 60, 0.45);
+  color: #ffffff;
+}
+
+QPushButton {
+  background: rgba(255, 60, 60, 0.14);
+  border: 1px solid rgba(255, 60, 60, 0.32);
+  border-radius: 14px;
+  color: #ffffff;
+  font-weight: 800;
+  min-height: 46px;
+  padding: 10px 14px;
+}
+
+QPushButton:hover {
+  background: rgba(255, 60, 60, 0.22);
+}
+
+QPushButton:pressed {
+  background: rgba(255, 60, 60, 0.30);
+}
+
+QPushButton:disabled {
+  color: rgba(255,255,255,0.35);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,60,60,0.10);
+}
+
+/* Start / Stop buttons (Hardware) */
+QPushButton#BtnStart {
+  background: rgba(80, 255, 140, 0.14);
+  border: 1px solid rgba(80, 255, 140, 0.35);
+}
+
+QPushButton#BtnStart:hover {
+  background: rgba(80, 255, 140, 0.22);
+}
+
+QPushButton#BtnStop {
+  background: rgba(255, 60, 60, 0.22);
+  border: 1px solid rgba(255, 60, 60, 0.45);
+}
+
+QPushButton#BtnStop:hover {
+  background: rgba(255, 60, 60, 0.30);
+}
+
+QSlider::groove:horizontal {
+  height: 8px;
+  background: rgba(255,255,255,0.10);
+  border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+  width: 18px;
+  margin: -6px 0;
+  border-radius: 9px;
+  background: #ff3c3c;
+}
+
+QProgressBar {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,60,60,0.18);
+  border-radius: 10px;
+  text-align: center;
+  height: 22px;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+QProgressBar::chunk {
+  background: #ff3c3c;
+  border-radius: 10px;
+}
