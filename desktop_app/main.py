@@ -10,12 +10,9 @@ from desktop_app.ui.main_window import MainWindow
 def run():
     app = QApplication(sys.argv)
     project_root = Path(__file__).resolve().parents[1]
-
     apply_theme(app, project_root)
-
     win = MainWindow(project_root=project_root)
     win.show()
-
     sys.exit(app.exec())
 
 

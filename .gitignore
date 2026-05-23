@@ -1,6 +1,43 @@
-.venv/
+# Python cache
 __pycache__/
 *.pyc
-Dataset/
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / API keys
 .env
+*.env
+secret*
+*api_key*
+*API_KEY*
+
+# Large models
+*.keras
+*.h5
+*.joblib
+*.pkl
+*.pt
+*.onnx
+
+# Full datasets
+Dataset/
+data/
+datasets/
+
+# Generated files
+outputs/
+generated_reports/
+logs/
+
+# IDE files
 .vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

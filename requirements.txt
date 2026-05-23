@@ -1,0 +1,12 @@
+PySide6
+pyqtgraph
+numpy
+pandas
+scikit-learn
+tensorflow
+opencv-python
+matplotlib
+joblib
+pyserial
+anthropic
+reportlab
