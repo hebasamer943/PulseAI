@@ -20,8 +20,8 @@ __pycache__/
 .idea/
 *.code-workspace
 
-# Datasets and training cache
-/Dataset/
+#  training cache
+
 /AI/models_experiments/cache/
 /AI/models_experiments/mitdb/
 
