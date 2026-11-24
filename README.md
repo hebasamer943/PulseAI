@@ -45,9 +45,9 @@ Each beat is standardized to 187 samples. The live pipeline first evaluates the 
 
 ### Post-session analysis — MIT-BIH
 
-| Stage | Classification task |
-| --- | --- |
-| Stage 1 | Normal-like vs. abnormal, with an unknown/low-confidence option |
+| Stage   | Classification task                                                              |
+| ------- | -------------------------------------------------------------------------------- |
+| Stage 1 | Normal-like vs. abnormal, with an unknown/low-confidence option                  |
 | Stage 2 | S: supraventricular ectopic beats; V: ventricular ectopic beats; F: fusion beats |
 
 Low-confidence subtype predictions are reported as unknown rather than forcing a class assignment.
@@ -56,11 +56,11 @@ Low-confidence subtype predictions are reported as unknown rather than forcing a
 
 Results reported in Chapter 12 of the graduation project documentation:
 
-| Dataset / model | Test samples | Accuracy | F1-score |
-| --- | ---: | ---: | ---: |
-| PTBDB — Final live pipeline | 2,911 | 98.90% | 99.24% |
-| MIT-BIH — Stage 1 binary model | 21,892 | 98.90% | 96.77% |
-| MIT-BIH — Stage 2 subtype model | 2,166 | 94.64% | 90.47% (macro) |
+| Dataset / model                 | Test samples | Accuracy |       F1-score |
+| ------------------------------- | -----------: | -------: | -------------: |
+| PTBDB — Final live pipeline     |        2,911 |   98.90% |         99.24% |
+| MIT-BIH — Stage 1 binary model  |       21,892 |   98.90% |         96.77% |
+| MIT-BIH — Stage 2 subtype model |        2,166 |   94.64% | 90.47% (macro) |
 
 The PTBDB final pipeline achieved a ROC-AUC of 99.82%. MIT-BIH Stage 1 achieved a ROC-AUC of 99.60%. For MIT-BIH Stage 2, confidence rejection resulted in 72.85% coverage and a 27.15% unknown rate; accuracy among covered predictions was 99.24%.
 
@@ -68,14 +68,14 @@ These are documented dataset evaluation results, not clinical validation results
 
 ## Technology Stack
 
-| Component | Technologies |
-| --- | --- |
-| Desktop interface | Python, PySide6, PyQtGraph |
-| Deep learning | TensorFlow, Keras, TCN, ResNet1D, Transformer |
-| Data processing and evaluation | NumPy, Pandas, SciPy, Scikit-learn |
-| Hardware and communication | ESP32, AD8232, PySerial |
-| Reporting and visualization | ReportLab, Matplotlib, Arabic text support |
-| Experimental image processing | OpenCV |
+| Component                      | Technologies                                  |
+| ------------------------------ | --------------------------------------------- |
+| Desktop interface              | Python, PySide6, PyQtGraph                    |
+| Deep learning                  | TensorFlow, Keras, TCN, ResNet1D, Transformer |
+| Data processing and evaluation | NumPy, Pandas, SciPy, Scikit-learn            |
+| Hardware and communication     | ESP32, AD8232, PySerial                       |
+| Reporting and visualization    | ReportLab, Matplotlib, Arabic text support    |
+| Experimental image processing  | OpenCV                                        |
 
 ## Getting Started
 
@@ -84,8 +84,8 @@ The application has been launched successfully on Windows with Python 3.12.10 in
 ### 1. Clone the repository
 
 ```powershell
-git clone https://github.com/hebasamer943/ECG.git
-cd ECG
+git clone https://github.com/hebasamer943/PulseAI.git
+cd PulseAI
 ```
 
 ### 2. Create and activate a virtual environment
@@ -142,14 +142,14 @@ Additional evaluation and training utilities are located in the repository root.
 
 The documentation includes the system architecture, hardware design, software implementation, model evaluation, confusion matrices, training curves, application screenshots, and report examples.
 
-| Section | PDF pages |
-| --- | --- |
-| System architecture | 13–16 |
-| Hardware prototype | 17–21 |
-| Live classification and MIT-BIH analysis | 26–33 |
-| Desktop interface screenshots | 35–37 |
-| Testing and model evaluation | 48–56 |
-| Application results and sample PDF report | 57–60 |
+| Section                                   | PDF pages |
+| ----------------------------------------- | --------- |
+| System architecture                       | 13–16     |
+| Hardware prototype                        | 17–21     |
+| Live classification and MIT-BIH analysis  | 26–33     |
+| Desktop interface screenshots             | 35–37     |
+| Testing and model evaluation              | 48–56     |
+| Application results and sample PDF report | 57–60     |
 
 ## Limitations and Future Work
 
