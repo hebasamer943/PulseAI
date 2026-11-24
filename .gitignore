@@ -37,3 +37,9 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+# Windows shortcuts
+*.lnk
+
+# Recorded ECG sessions
+/Reports/session_*.csv
