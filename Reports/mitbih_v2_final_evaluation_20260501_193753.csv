@@ -1,0 +1,34 @@
+section,metric,value
+Stage1,threshold,0.7600000000000001
+Stage1,accuracy,0.9890370911748584
+Stage1,precision_abnormal,0.9833150984682714
+Stage1,recall_abnormal,0.9525702172760996
+Stage1,f1_abnormal,0.9676985195154778
+Stage1,specificity_normal,0.9966331824704714
+Stage1,roc_auc,0.9960205232927193
+Stage1,tp,3595
+Stage1,tn,18057
+Stage1,fp,61
+Stage1,fn,179
+Stage2 known,accuracy,0.9464450600184672
+Stage2 known,macro_precision,0.8809765989312605
+Stage2 known,macro_recall,0.9395110471884411
+Stage2 known,macro_f1,0.9046841774713369
+Stage2 known,weighted_f1,0.9482954709613126
+Stage2 rejection,confidence_threshold,0.9000000000000005
+Stage2 rejection,coverage,0.7285318559556787
+Stage2 rejection,unknown_rate,0.2714681440443213
+Stage2 rejection,covered_accuracy,0.9923954372623575
+Stage2 rejection,covered_macro_f1,0.9812502021824222
+Stage2 rejection,covered_weighted_f1,0.992504954716712
+Two-stage pipeline,stage1_threshold,0.7600000000000001
+Two-stage pipeline,stage2_confidence_threshold,0.9000000000000005
+Two-stage pipeline,stage1_binary_accuracy,0.9890370911748584
+Two-stage pipeline,stage1_abnormal_precision,0.9833150984682714
+Two-stage pipeline,stage1_abnormal_recall,0.9525702172760996
+Two-stage pipeline,stage1_abnormal_f1,0.9676985195154778
+Two-stage pipeline,final_5class_accuracy_known_labels,0.964553342535989
+Two-stage pipeline,final_macro_f1_known_labels,0.6627305082327359
+Two-stage pipeline,final_weighted_f1_known_labels,0.9744771081740259
+Two-stage pipeline,subtype_coverage_on_true_svf,0.7765466297322253
+Two-stage pipeline,subtype_unknown_rate_on_true_svf,0.2234533702677747

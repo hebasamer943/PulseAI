@@ -1,0 +1,20 @@
+PTBDB Final Live Pipeline Test Result
+Samples: 2911
+Threshold: 0.60
+Accuracy: 0.9358
+Precision abnormal: 0.9641
+Recall abnormal: 0.9462
+F1 abnormal: 0.9551
+ROC-AUC: 0.9773
+Confusion Matrix: [[735, 74], [113, 1989]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Normal     0.8667    0.9085    0.8871       809
+    Abnormal     0.9641    0.9462    0.9551      2102
+
+    accuracy                         0.9358      2911
+   macro avg     0.9154    0.9274    0.9211      2911
+weighted avg     0.9371    0.9358    0.9362      2911
+

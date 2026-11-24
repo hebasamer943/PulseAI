@@ -1,0 +1,5 @@
+dataset,model,threshold,tn,fp,fn,tp
+PTBDB,ResNet1D,0.6,790,19,7,2095
+PTBDB,TCN,0.6,784,25,21,2081
+PTBDB,Transformer,0.6,769,40,131,1971
+PTBDB,Final Live Pipeline: TCN-first Conditional Ensemble,0.6,791,18,14,2088

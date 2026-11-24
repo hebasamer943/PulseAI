@@ -1,0 +1,20 @@
+{
+  "model": "PTBDB Final Live Pipeline",
+  "threshold": 0.6,
+  "samples": 2911,
+  "accuracy": 0.9357609069048437,
+  "precision_abnormal": 0.9641299079011149,
+  "recall_abnormal": 0.9462416745956232,
+  "f1_abnormal": 0.9551020408163265,
+  "roc_auc": 0.9773069147165745,
+  "confusion_matrix": [
+    [
+      735,
+      74
+    ],
+    [
+      113,
+      1989
+    ]
+  ]
+}

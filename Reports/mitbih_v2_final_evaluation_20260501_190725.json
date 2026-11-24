@@ -1,0 +1,277 @@
+{
+  "generated_at": "2026-05-01T19:07:25",
+  "stage1_v2": {
+    "model_name": "MIT-BIH Stage 1 v2",
+    "threshold": 0.7600000000000001,
+    "n_samples": 21892,
+    "accuracy": 0.9890370911748584,
+    "precision_abnormal": 0.9833150984682714,
+    "recall_abnormal": 0.9525702172760996,
+    "f1_abnormal": 0.9676985195154778,
+    "specificity_normal": 0.9966331824704714,
+    "roc_auc": 0.9960205232927193,
+    "tp": 3595,
+    "tn": 18057,
+    "fp": 61,
+    "fn": 179,
+    "confusion_matrix": [
+      [
+        18057,
+        61
+      ],
+      [
+        179,
+        3595
+      ]
+    ],
+    "classification_report": {
+      "Normal": {
+        "precision": 0.990184250932222,
+        "recall": 0.9966331824704714,
+        "f1-score": 0.9933982505363922,
+        "support": 18118.0
+      },
+      "Abnormal": {
+        "precision": 0.9833150984682714,
+        "recall": 0.9525702172760996,
+        "f1-score": 0.9676985195154778,
+        "support": 3774.0
+      },
+      "accuracy": 0.9890370911748584,
+      "macro avg": {
+        "precision": 0.9867496747002467,
+        "recall": 0.9746016998732855,
+        "f1-score": 0.980548385025935,
+        "support": 21892.0
+      },
+      "weighted avg": {
+        "precision": 0.9890000657778756,
+        "recall": 0.9890370911748584,
+        "f1-score": 0.9889678291553886,
+        "support": 21892.0
+      }
+    }
+  },
+  "stage2_v2_known": {
+    "model_name": "MIT-BIH Stage 2 v2 S/V/F",
+    "n_samples": 2166,
+    "accuracy": 0.9464450600184672,
+    "macro_precision": 0.8809765989312605,
+    "macro_recall": 0.9395110471884411,
+    "macro_f1": 0.9046841774713369,
+    "weighted_precision": 0.9529063224595389,
+    "weighted_recall": 0.9464450600184672,
+    "weighted_f1": 0.9482954709613126,
+    "confusion_matrix": [
+      [
+        514,
+        21,
+        21
+      ],
+      [
+        22,
+        1384,
+        42
+      ],
+      [
+        1,
+        9,
+        152
+      ]
+    ],
+    "classification_report": {
+      "S": {
+        "precision": 0.957169459962756,
+        "recall": 0.9244604316546763,
+        "f1-score": 0.9405306495882891,
+        "support": 556.0
+      },
+      "V": {
+        "precision": 0.9787835926449788,
+        "recall": 0.9558011049723757,
+        "f1-score": 0.9671558350803634,
+        "support": 1448.0
+      },
+      "F": {
+        "precision": 0.7069767441860465,
+        "recall": 0.9382716049382716,
+        "f1-score": 0.8063660477453581,
+        "support": 162.0
+      },
+      "accuracy": 0.9464450600184672,
+      "macro avg": {
+        "precision": 0.8809765989312605,
+        "recall": 0.9395110471884411,
+        "f1-score": 0.9046841774713369,
+        "support": 2166.0
+      },
+      "weighted avg": {
+        "precision": 0.9529063224595389,
+        "recall": 0.9464450600184672,
+        "f1-score": 0.9482954709613126,
+        "support": 2166.0
+      }
+    }
+  },
+  "stage2_v2_with_rejection": {
+    "model_name": "MIT-BIH Stage 2 v2 with confidence rejection",
+    "confidence_threshold": 0.9000000000000005,
+    "n_samples": 2166,
+    "covered_samples": 1578,
+    "unknown_samples": 588,
+    "coverage": 0.7285318559556787,
+    "unknown_rate": 0.2714681440443213,
+    "covered_accuracy": 0.9923954372623575,
+    "covered_macro_f1": 0.9812502021824222,
+    "covered_weighted_f1": 0.992504954716712,
+    "covered_confusion_matrix": [
+      [
+        366,
+        1,
+        5
+      ],
+      [
+        0,
+        1083,
+        5
+      ],
+      [
+        0,
+        1,
+        117
+      ]
+    ],
+    "covered_classification_report": {
+      "S": {
+        "precision": 1.0,
+        "recall": 0.9838709677419355,
+        "f1-score": 0.991869918699187,
+        "support": 372.0
+      },
+      "V": {
+        "precision": 0.9981566820276497,
+        "recall": 0.9954044117647058,
+        "f1-score": 0.9967786470317533,
+        "support": 1088.0
+      },
+      "F": {
+        "precision": 0.9212598425196851,
+        "recall": 0.9915254237288136,
+        "f1-score": 0.9551020408163265,
+        "support": 118.0
+      },
+      "accuracy": 0.9923954372623575,
+      "macro avg": {
+        "precision": 0.9731388415157783,
+        "recall": 0.9902669344118182,
+        "f1-score": 0.9812502021824222,
+        "support": 1578.0
+      },
+      "weighted avg": {
+        "precision": 0.992841021206214,
+        "recall": 0.9923954372623575,
+        "f1-score": 0.992504954716712,
+        "support": 1578.0
+      }
+    }
+  },
+  "two_stage_pipeline": {
+    "stage1_threshold": 0.7600000000000001,
+    "stage2_confidence_threshold": 0.9000000000000005,
+    "total_samples": 21892,
+    "normal_samples": 18118,
+    "abnormal_svf_samples": 2166,
+    "q_unknown_samples": 1608,
+    "stage1_binary_accuracy": 0.9890370911748584,
+    "stage1_abnormal_precision": 0.9833150984682714,
+    "stage1_abnormal_recall": 0.9525702172760996,
+    "stage1_abnormal_f1": 0.9676985195154778,
+    "final_5class_accuracy_known_labels": 0.964553342535989,
+    "final_macro_f1_known_labels": 0.6627305082327359,
+    "final_weighted_f1_known_labels": 0.9744771081740259,
+    "final_confusion_matrix_known_labels": [
+      [
+        18057,
+        12,
+        4,
+        2,
+        43
+      ],
+      [
+        105,
+        328,
+        1,
+        3,
+        119
+      ],
+      [
+        35,
+        0,
+        1080,
+        5,
+        328
+      ],
+      [
+        24,
+        0,
+        1,
+        100,
+        37
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "final_classification_report_known_labels": {
+      "Normal": {
+        "precision": 0.9909993963009714,
+        "recall": 0.9966331824704714,
+        "f1-score": 0.9938083051267234,
+        "support": 18118.0
+      },
+      "S": {
+        "precision": 0.9647058823529412,
+        "recall": 0.5899280575539568,
+        "f1-score": 0.7321428571428571,
+        "support": 556.0
+      },
+      "V": {
+        "precision": 0.994475138121547,
+        "recall": 0.7458563535911602,
+        "f1-score": 0.8524072612470402,
+        "support": 1448.0
+      },
+      "F": {
+        "precision": 0.9090909090909091,
+        "recall": 0.6172839506172839,
+        "f1-score": 0.7352941176470589,
+        "support": 162.0
+      },
+      "Q/Unknown": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "accuracy": 0.964553342535989,
+      "macro avg": {
+        "precision": 0.7718542651732737,
+        "recall": 0.5899403088465744,
+        "f1-score": 0.6627305082327359,
+        "support": 20284.0
+      },
+      "weighted avg": {
+        "precision": 0.9898726217729226,
+        "recall": 0.964553342535989,
+        "f1-score": 0.9744771081740259,
+        "support": 20284.0
+      }
+    },
+    "subtype_coverage_on_true_svf": 0.7765466297322253,
+    "subtype_unknown_rate_on_true_svf": 0.2234533702677747
+  }
+}

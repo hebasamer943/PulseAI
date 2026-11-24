@@ -1,0 +1,2 @@
+dataset,task,model,samples,known_accuracy_without_rejection,known_macro_f1_without_rejection,known_weighted_f1_without_rejection,confidence_threshold,coverage,unknown_rate,covered_accuracy,covered_macro_f1,covered_weighted_f1
+MIT-BIH,Stage 2: Abnormal subtype classification,MIT-BIH Stage 2 Subtypes S/V/F v2,2166,0.9464450600184672,0.9046841774713369,0.9482954709613126,0.9000000000000005,0.7285318559556787,0.2714681440443213,0.9923954372623575,0.9812502021824222,0.992504954716712

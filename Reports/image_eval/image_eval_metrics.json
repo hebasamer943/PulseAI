@@ -1,0 +1,17 @@
+{
+  "n_images": 200,
+  "n_labeled": 200,
+  "n_extracted_ok": 171,
+  "n_extracted_fail": 29,
+  "extraction_success_rate": 0.855,
+  "n_classified_labeled": 171,
+  "accuracy": 0.49707602339181284,
+  "precision": 0.49700598802395207,
+  "recall": 0.9764705882352941,
+  "specificity": 0.023255813953488372,
+  "f1": 0.6587301587301587,
+  "tp": 83,
+  "tn": 2,
+  "fp": 84,
+  "fn": 2
+}

@@ -1,0 +1,369 @@
+{
+  "generated_at": "2026-04-30T20:08:19",
+  "results": [
+    {
+      "model_name": "ResNet only",
+      "threshold": 0.6,
+      "n_samples": 14552,
+      "accuracy": 0.8204370533260033,
+      "precision": 0.9802847754654983,
+      "recall": 0.7667047401484866,
+      "specificity": 0.9599604547701434,
+      "f1": 0.8604390322063772,
+      "auc": 0.9322138285219689,
+      "tp": 8055,
+      "tn": 3884,
+      "fp": 162,
+      "fn": 2451,
+      "confusion_matrix": [
+        [
+          3884,
+          162
+        ],
+        [
+          2451,
+          8055
+        ]
+      ],
+      "classification_report": {
+        "Normal": {
+          "precision": 0.6131018153117601,
+          "recall": 0.9599604547701434,
+          "f1-score": 0.7482901454580484,
+          "support": 4046.0
+        },
+        "Abnormal": {
+          "precision": 0.9802847754654983,
+          "recall": 0.7667047401484866,
+          "f1-score": 0.8604390322063772,
+          "support": 10506.0
+        },
+        "accuracy": 0.8204370533260033,
+        "macro avg": {
+          "precision": 0.7966932953886292,
+          "recall": 0.8633325974593149,
+          "f1-score": 0.8043645888322128,
+          "support": 14552.0
+        },
+        "weighted avg": {
+          "precision": 0.878194186076959,
+          "recall": 0.8204370533260033,
+          "f1-score": 0.8292574492085941,
+          "support": 14552.0
+        }
+      }
+    },
+    {
+      "model_name": "TCN only",
+      "threshold": 0.6,
+      "n_samples": 14552,
+      "accuracy": 0.9298378229796591,
+      "precision": 0.9371370633238086,
+      "recall": 0.9677327241576242,
+      "specificity": 0.8314384577360356,
+      "f1": 0.9521891828611566,
+      "auc": 0.9797636762233365,
+      "tp": 10167,
+      "tn": 3364,
+      "fp": 682,
+      "fn": 339,
+      "confusion_matrix": [
+        [
+          3364,
+          682
+        ],
+        [
+          339,
+          10167
+        ]
+      ],
+      "classification_report": {
+        "Normal": {
+          "precision": 0.9084526059951391,
+          "recall": 0.8314384577360356,
+          "f1-score": 0.8682410633630145,
+          "support": 4046.0
+        },
+        "Abnormal": {
+          "precision": 0.9371370633238086,
+          "recall": 0.9677327241576242,
+          "f1-score": 0.9521891828611566,
+          "support": 10506.0
+        },
+        "accuracy": 0.9298378229796591,
+        "macro avg": {
+          "precision": 0.9227948346594739,
+          "recall": 0.89958559094683,
+          "f1-score": 0.9102151231120856,
+          "support": 14552.0
+        },
+        "weighted avg": {
+          "precision": 0.9291617118702767,
+          "recall": 0.9298378229796591,
+          "f1-score": 0.9288484673932152,
+          "support": 14552.0
+        }
+      }
+    },
+    {
+      "model_name": "Transformer only",
+      "threshold": 0.6,
+      "n_samples": 14552,
+      "accuracy": 0.8620120945574491,
+      "precision": 0.8661668390210272,
+      "recall": 0.9566914144298496,
+      "specificity": 0.6161641127039051,
+      "f1": 0.9091813658977838,
+      "auc": 0.9157882052945476,
+      "tp": 10051,
+      "tn": 2493,
+      "fp": 1553,
+      "fn": 455,
+      "confusion_matrix": [
+        [
+          2493,
+          1553
+        ],
+        [
+          455,
+          10051
+        ]
+      ],
+      "classification_report": {
+        "Normal": {
+          "precision": 0.8456580732700135,
+          "recall": 0.6161641127039051,
+          "f1-score": 0.7128967686588504,
+          "support": 4046.0
+        },
+        "Abnormal": {
+          "precision": 0.8661668390210272,
+          "recall": 0.9566914144298496,
+          "f1-score": 0.9091813658977838,
+          "support": 10506.0
+        },
+        "accuracy": 0.8620120945574491,
+        "macro avg": {
+          "precision": 0.8559124561455204,
+          "recall": 0.7864277635668774,
+          "f1-score": 0.8110390672783171,
+          "support": 14552.0
+        },
+        "weighted avg": {
+          "precision": 0.8604646354594135,
+          "recall": 0.8620120945574491,
+          "f1-score": 0.8546069101234074,
+          "support": 14552.0
+        }
+      }
+    },
+    {
+      "model_name": "Current ResNet-first ensemble [0.30,0.70]",
+      "threshold": 0.6,
+      "n_samples": 14552,
+      "accuracy": 0.8932792743265531,
+      "precision": 0.9822255736292147,
+      "recall": 0.8678850180849038,
+      "specificity": 0.9592189817103312,
+      "f1": 0.9215220577088281,
+      "auc": 0.9388740059466525,
+      "tp": 9118,
+      "tn": 3881,
+      "fp": 165,
+      "fn": 1388,
+      "confusion_matrix": [
+        [
+          3881,
+          165
+        ],
+        [
+          1388,
+          9118
+        ]
+      ],
+      "classification_report": {
+        "Normal": {
+          "precision": 0.7365724046308597,
+          "recall": 0.9592189817103312,
+          "f1-score": 0.8332796564680622,
+          "support": 4046.0
+        },
+        "Abnormal": {
+          "precision": 0.9822255736292147,
+          "recall": 0.8678850180849038,
+          "f1-score": 0.9215220577088281,
+          "support": 10506.0
+        },
+        "accuracy": 0.8932792743265531,
+        "macro avg": {
+          "precision": 0.8593989891300372,
+          "recall": 0.9135519998976175,
+          "f1-score": 0.8774008570884452,
+          "support": 14552.0
+        },
+        "weighted avg": {
+          "precision": 0.9139248093516347,
+          "recall": 0.8932792743265531,
+          "f1-score": 0.8969873713825403,
+          "support": 14552.0
+        }
+      }
+    },
+    {
+      "model_name": "ResNet-first wide ensemble [0.20,0.85]",
+      "threshold": 0.6,
+      "n_samples": 14552,
+      "accuracy": 0.9033809785596482,
+      "precision": 0.9835281615302869,
+      "recall": 0.8809251856082239,
+      "specificity": 0.9616905585763718,
+      "f1": 0.9294034946776462,
+      "auc": 0.9450753089894539,
+      "tp": 9255,
+      "tn": 3891,
+      "fp": 155,
+      "fn": 1251,
+      "confusion_matrix": [
+        [
+          3891,
+          155
+        ],
+        [
+          1251,
+          9255
+        ]
+      ],
+      "classification_report": {
+        "Normal": {
+          "precision": 0.7567094515752626,
+          "recall": 0.9616905585763718,
+          "f1-score": 0.84697431432303,
+          "support": 4046.0
+        },
+        "Abnormal": {
+          "precision": 0.9835281615302869,
+          "recall": 0.8809251856082239,
+          "f1-score": 0.9294034946776462,
+          "support": 10506.0
+        },
+        "accuracy": 0.9033809785596482,
+        "macro avg": {
+          "precision": 0.8701188065527747,
+          "recall": 0.9213078720922978,
+          "f1-score": 0.8881889045003382,
+          "support": 14552.0
+        },
+        "weighted avg": {
+          "precision": 0.9204640809586796,
+          "recall": 0.9033809785596482,
+          "f1-score": 0.9064851010743766,
+          "support": 14552.0
+        }
+      }
+    },
+    {
+      "model_name": "TCN-first ensemble [0.30,0.70]",
+      "threshold": 0.6,
+      "n_samples": 14552,
+      "accuracy": 0.9356789444749862,
+      "precision": 0.9526963103122044,
+      "recall": 0.9584999048162954,
+      "specificity": 0.8764211566979733,
+      "f1": 0.9555892958815715,
+      "auc": 0.9803398834590107,
+      "tp": 10070,
+      "tn": 3546,
+      "fp": 500,
+      "fn": 436,
+      "confusion_matrix": [
+        [
+          3546,
+          500
+        ],
+        [
+          436,
+          10070
+        ]
+      ],
+      "classification_report": {
+        "Normal": {
+          "precision": 0.8905072827724761,
+          "recall": 0.8764211566979733,
+          "f1-score": 0.8834080717488789,
+          "support": 4046.0
+        },
+        "Abnormal": {
+          "precision": 0.9526963103122044,
+          "recall": 0.9584999048162954,
+          "f1-score": 0.9555892958815715,
+          "support": 10506.0
+        },
+        "accuracy": 0.9356789444749862,
+        "macro avg": {
+          "precision": 0.9216017965423402,
+          "recall": 0.9174605307571344,
+          "f1-score": 0.9194986838152253,
+          "support": 14552.0
+        },
+        "weighted avg": {
+          "precision": 0.9354054358327005,
+          "recall": 0.9356789444749862,
+          "f1-score": 0.935520217209164,
+          "support": 14552.0
+        }
+      }
+    },
+    {
+      "model_name": "TCN-first wide ensemble [0.20,0.85]",
+      "threshold": 0.6,
+      "n_samples": 14552,
+      "accuracy": 0.9417949422759758,
+      "precision": 0.9687469669028438,
+      "recall": 0.950028555111365,
+      "specificity": 0.9204152249134948,
+      "f1": 0.9592964582632515,
+      "auc": 0.9821303534011449,
+      "tp": 9981,
+      "tn": 3724,
+      "fp": 322,
+      "fn": 525,
+      "confusion_matrix": [
+        [
+          3724,
+          322
+        ],
+        [
+          525,
+          9981
+        ]
+      ],
+      "classification_report": {
+        "Normal": {
+          "precision": 0.8764415156507414,
+          "recall": 0.9204152249134948,
+          "f1-score": 0.8978902953586498,
+          "support": 4046.0
+        },
+        "Abnormal": {
+          "precision": 0.9687469669028438,
+          "recall": 0.950028555111365,
+          "f1-score": 0.9592964582632515,
+          "support": 10506.0
+        },
+        "accuracy": 0.9417949422759758,
+        "macro avg": {
+          "precision": 0.9225942412767926,
+          "recall": 0.9352218900124298,
+          "f1-score": 0.9285933768109507,
+          "support": 14552.0
+        },
+        "weighted avg": {
+          "precision": 0.9430826007836846,
+          "recall": 0.9417949422759758,
+          "f1-score": 0.9422232494182805,
+          "support": 14552.0
+        }
+      }
+    }
+  ]
+}

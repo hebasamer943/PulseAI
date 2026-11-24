@@ -1,0 +1,13 @@
+{
+  "class_names": [
+    "Normal beat",
+    "LBBB beat",
+    "RBBB beat",
+    "PAC (Atrial premature beat)",
+    "Junctional premature beat",
+    "PVC (Ventricular premature)",
+    "Ventricular escape beat",
+    "Fusion beat"
+  ],
+  "min_confidence_unknown": 0.6
+}

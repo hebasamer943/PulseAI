@@ -27,7 +27,7 @@ def load_ptbdb():
     return X, y
 
 def focal_loss(gamma=2.0, alpha=0.75):
-   
+    # alpha أعلى شوي لصالح abnormal (label=1)
     def loss(y_true, y_pred):
         y_true = tf.cast(y_true, tf.float32)
         y_pred = tf.clip_by_value(y_pred, 1e-7, 1.0 - 1e-7)

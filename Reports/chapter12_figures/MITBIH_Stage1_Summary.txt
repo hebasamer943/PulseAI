@@ -1,0 +1,8 @@
+MIT-BIH Stage 1 Test Result
+Accuracy: 0.9890
+Precision abnormal: 0.9833
+Recall abnormal: 0.9526
+F1 abnormal: 0.9677
+ROC-AUC: 0.9960
+Threshold: 0.76
+Confusion Matrix: [[18057, 61], [179, 3595]]

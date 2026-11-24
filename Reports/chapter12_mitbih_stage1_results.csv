@@ -1,0 +1,2 @@
+dataset,task,model,threshold_used,best_threshold,samples,accuracy,precision,recall,specificity,f1_score,roc_auc
+MIT-BIH,Stage 1: Normal-like vs Abnormal,MIT-BIH Stage 1 Binary v2,0.7600000000000001,0.7400000000000002,21892,0.9890370911748584,0.9833150984682714,0.9525702172760996,0.9966331824704714,0.9676985195154778,0.9960205232927193

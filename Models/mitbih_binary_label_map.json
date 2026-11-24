@@ -1,0 +1,9 @@
+{
+  "task": "binary",
+  "class_names": [
+    "Normal",
+    "Abnormal"
+  ],
+  "threshold": 0.5,
+  "min_confidence_unknown": 0.6
+}

@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-03-13T13:10:56",
+  "project_root": "C:\\Users\\hebas\\OneDrive\\Desktop\\Project ECG",
+  "datasets": {
+    "ptbdb": 14552,
+    "mitbih_test_binary": 21892
+  },
+  "notes": [
+    "This report evaluates only the models/pipelines currently used by the application UI.",
+    "PTBDB result matches the live beat pipeline logic: ResNet, then conditional TCN/Transformer ensemble only in the uncertain range.",
+    "MITBIH result is a proxy for the image classifier model on beat vectors, not a full-image extraction benchmark."
+  ],
+  "results": [
+    {
+      "preset": "ptbdb_live_pipeline on PTBDB",
+      "threshold_used": 0.6,
+      "metrics_at_threshold": {
+        "threshold": 0.6,
+        "accuracy": 0.8932792743265531,
+        "precision": 0.9822255736292147,
+        "recall": 0.8678850180849038,
+        "specificity": 0.9592189817103312,
+        "f1": 0.9215220577088281,
+        "roc_auc": 0.9388740059466525,
+        "tp": 9118,
+        "tn": 3881,
+        "fp": 165,
+        "fn": 1388,
+        "n_samples": 14552,
+        "positive_rate_pred": 0.6379191863661352,
+        "positive_rate_true": 0.7219626168224299
+      },
+      "best_f1_threshold": {
+        "threshold": 0.5399999999999999,
+        "accuracy": 0.8963716327652557,
+        "precision": 0.9781083953241233,
+        "recall": 0.876070816676185,
+        "specificity": 0.949085516559565,
+        "f1": 0.9242819843342037,
+        "roc_auc": 0.9388740059466525,
+        "tp": 9204,
+        "tn": 3840,
+        "fp": 206,
+        "fn": 1302,
+        "n_samples": 14552,
+        "positive_rate_pred": 0.6466465090709181,
+        "positive_rate_true": 0.7219626168224299
+      },
+      "n_samples": 14552
+    },
+    {
+      "preset": "mitbih_image_inception on MITBIH test",
+      "threshold_used": 0.5,
+      "metrics_at_threshold": {
+        "threshold": 0.5,
+        "accuracy": 0.7592271149278275,
+        "precision": 0.07106017191977078,
+        "recall": 0.03285638579756227,
+        "specificity": 0.9105309636825256,
+        "f1": 0.044935676753034975,
+        "roc_auc": 0.5979661797860145,
+        "tp": 124,
+        "tn": 16497,
+        "fp": 1621,
+        "fn": 3650,
+        "n_samples": 21892,
+        "positive_rate_pred": 0.07970948291613375,
+        "positive_rate_true": 0.17239174127535173
+      },
+      "best_f1_threshold": {
+        "threshold": 0.05,
+        "accuracy": 0.6746756806139229,
+        "precision": 0.18533834586466166,
+        "recall": 0.26126126126126126,
+        "specificity": 0.7607903742134894,
+        "f1": 0.21684627226742906,
+        "roc_auc": 0.5979661797860145,
+        "tp": 986,
+        "tn": 13784,
+        "fp": 4334,
+        "fn": 2788,
+        "n_samples": 21892,
+        "positive_rate_pred": 0.24301114562397222,
+        "positive_rate_true": 0.17239174127535173
+      },
+      "n_samples": 21892
+    }
+  ]
+}

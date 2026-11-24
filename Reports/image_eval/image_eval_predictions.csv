@@ -1,0 +1,201 @@
+path,file,true_label,extract_ok,extract_msg,prob_abnormal,pred_label,threshold
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0000_origlabel_2.png,abnormal_0000_origlabel_2.png,1,True,OK,0.9392743706703186,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0001_origlabel_3.png,abnormal_0001_origlabel_3.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0002_origlabel_4.png,abnormal_0002_origlabel_4.png,1,True,OK,0.9992754936218262,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0007_origlabel_2.png,abnormal_0007_origlabel_2.png,1,True,OK,0.9431729316711426,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0009_origlabel_4.png,abnormal_0009_origlabel_4.png,1,True,OK,0.6790692061185837,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0011_origlabel_4.png,abnormal_0011_origlabel_4.png,1,True,OK,0.9398874163627624,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0012_origlabel_1.png,abnormal_0012_origlabel_1.png,1,True,OK,0.995530754327774,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0013_origlabel_2.png,abnormal_0013_origlabel_2.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0014_origlabel_1.png,abnormal_0014_origlabel_1.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0015_origlabel_1.png,abnormal_0015_origlabel_1.png,1,True,OK,0.9931888580322266,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0018_origlabel_4.png,abnormal_0018_origlabel_4.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0020_origlabel_2.png,abnormal_0020_origlabel_2.png,1,True,OK,0.9986769437789917,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0023_origlabel_1.png,abnormal_0023_origlabel_1.png,1,True,OK,0.7856028020381928,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0025_origlabel_1.png,abnormal_0025_origlabel_1.png,1,True,OK,0.8784825801849365,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0026_origlabel_4.png,abnormal_0026_origlabel_4.png,1,True,OK,0.6954556852579117,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0029_origlabel_4.png,abnormal_0029_origlabel_4.png,1,True,OK,0.9552615880966187,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0030_origlabel_2.png,abnormal_0030_origlabel_2.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0033_origlabel_2.png,abnormal_0033_origlabel_2.png,1,True,OK,0.9940410673618317,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0034_origlabel_4.png,abnormal_0034_origlabel_4.png,1,True,OK,0.9991511702537537,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0035_origlabel_2.png,abnormal_0035_origlabel_2.png,1,True,OK,0.9978350937366486,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0036_origlabel_4.png,abnormal_0036_origlabel_4.png,1,True,OK,0.8621584177017212,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0037_origlabel_4.png,abnormal_0037_origlabel_4.png,1,True,OK,0.7007498979568482,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0040_origlabel_4.png,abnormal_0040_origlabel_4.png,1,True,OK,0.9973263561725616,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0043_origlabel_2.png,abnormal_0043_origlabel_2.png,1,True,OK,0.9976172029972077,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0044_origlabel_2.png,abnormal_0044_origlabel_2.png,1,True,OK,0.9687552452087402,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0046_origlabel_1.png,abnormal_0046_origlabel_1.png,1,True,OK,0.9988370060920715,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0048_origlabel_2.png,abnormal_0048_origlabel_2.png,1,True,OK,0.9690537869930267,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0051_origlabel_4.png,abnormal_0051_origlabel_4.png,1,True,OK,0.6893971860408783,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0052_origlabel_4.png,abnormal_0052_origlabel_4.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0053_origlabel_4.png,abnormal_0053_origlabel_4.png,1,True,OK,0.9938454866409303,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0054_origlabel_2.png,abnormal_0054_origlabel_2.png,1,True,OK,0.9983027696609498,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0056_origlabel_1.png,abnormal_0056_origlabel_1.png,1,True,OK,0.489375501871109,0,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0058_origlabel_4.png,abnormal_0058_origlabel_4.png,1,True,OK,0.9999801635742188,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0060_origlabel_2.png,abnormal_0060_origlabel_2.png,1,True,OK,0.9892674684524536,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0061_origlabel_2.png,abnormal_0061_origlabel_2.png,1,True,OK,0.9987007021903992,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0063_origlabel_4.png,abnormal_0063_origlabel_4.png,1,True,OK,0.9894698262214661,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0065_origlabel_1.png,abnormal_0065_origlabel_1.png,1,True,OK,0.9700719714164734,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0069_origlabel_4.png,abnormal_0069_origlabel_4.png,1,True,OK,0.791519159078598,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0070_origlabel_4.png,abnormal_0070_origlabel_4.png,1,True,OK,0.9816990792751312,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0072_origlabel_1.png,abnormal_0072_origlabel_1.png,1,True,OK,0.980794882774353,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0073_origlabel_4.png,abnormal_0073_origlabel_4.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0075_origlabel_4.png,abnormal_0075_origlabel_4.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0077_origlabel_2.png,abnormal_0077_origlabel_2.png,1,True,OK,0.9999865293502808,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0078_origlabel_1.png,abnormal_0078_origlabel_1.png,1,True,OK,0.9905418634414673,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0079_origlabel_4.png,abnormal_0079_origlabel_4.png,1,True,OK,0.8766444683074952,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0080_origlabel_2.png,abnormal_0080_origlabel_2.png,1,True,OK,0.9853510439395905,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0083_origlabel_2.png,abnormal_0083_origlabel_2.png,1,True,OK,0.9987270534038544,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0088_origlabel_2.png,abnormal_0088_origlabel_2.png,1,True,OK,0.9066570162773133,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0089_origlabel_4.png,abnormal_0089_origlabel_4.png,1,True,OK,0.9546819031238556,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0090_origlabel_2.png,abnormal_0090_origlabel_2.png,1,True,OK,0.9850923120975494,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0093_origlabel_2.png,abnormal_0093_origlabel_2.png,1,True,OK,0.9944905638694763,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0096_origlabel_1.png,abnormal_0096_origlabel_1.png,1,True,OK,0.9749450445175172,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0097_origlabel_2.png,abnormal_0097_origlabel_2.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0099_origlabel_2.png,abnormal_0099_origlabel_2.png,1,True,OK,0.9787078738212586,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0101_origlabel_2.png,abnormal_0101_origlabel_2.png,1,True,OK,0.9675408780574799,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0102_origlabel_4.png,abnormal_0102_origlabel_4.png,1,True,OK,0.9999909281730652,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0105_origlabel_2.png,abnormal_0105_origlabel_2.png,1,True,OK,0.981769859790802,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0107_origlabel_1.png,abnormal_0107_origlabel_1.png,1,True,OK,0.9780296504497528,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0109_origlabel_4.png,abnormal_0109_origlabel_4.png,1,True,OK,0.9982382655143738,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0113_origlabel_2.png,abnormal_0113_origlabel_2.png,1,True,OK,0.9700954735279084,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0114_origlabel_2.png,abnormal_0114_origlabel_2.png,1,True,OK,0.9938526928424836,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0120_origlabel_4.png,abnormal_0120_origlabel_4.png,1,True,OK,0.9937477707862854,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0121_origlabel_4.png,abnormal_0121_origlabel_4.png,1,True,OK,0.9451781511306763,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0123_origlabel_4.png,abnormal_0123_origlabel_4.png,1,True,OK,0.998629093170166,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0125_origlabel_2.png,abnormal_0125_origlabel_2.png,1,True,OK,0.9772869229316712,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0127_origlabel_2.png,abnormal_0127_origlabel_2.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0130_origlabel_2.png,abnormal_0130_origlabel_2.png,1,True,OK,0.9921935439109804,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0131_origlabel_4.png,abnormal_0131_origlabel_4.png,1,True,OK,0.9965036094188691,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0134_origlabel_2.png,abnormal_0134_origlabel_2.png,1,True,OK,0.5786856189370155,0,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0135_origlabel_2.png,abnormal_0135_origlabel_2.png,1,True,OK,0.9998192727565766,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0136_origlabel_2.png,abnormal_0136_origlabel_2.png,1,True,OK,0.9999266386032105,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0137_origlabel_2.png,abnormal_0137_origlabel_2.png,1,True,OK,0.9990147352218628,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0138_origlabel_1.png,abnormal_0138_origlabel_1.png,1,True,OK,0.9919328391551971,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0143_origlabel_3.png,abnormal_0143_origlabel_3.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0146_origlabel_2.png,abnormal_0146_origlabel_2.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0147_origlabel_2.png,abnormal_0147_origlabel_2.png,1,True,OK,0.9972015023231506,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0148_origlabel_4.png,abnormal_0148_origlabel_4.png,1,True,OK,0.9726585566997529,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0149_origlabel_2.png,abnormal_0149_origlabel_2.png,1,True,OK,0.9834962010383606,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0155_origlabel_2.png,abnormal_0155_origlabel_2.png,1,True,OK,0.9937788844108582,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0156_origlabel_4.png,abnormal_0156_origlabel_4.png,1,True,OK,0.8716959297657013,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0157_origlabel_4.png,abnormal_0157_origlabel_4.png,1,True,OK,0.9791513085365295,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0161_origlabel_1.png,abnormal_0161_origlabel_1.png,1,True,OK,0.9775771915912628,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0162_origlabel_4.png,abnormal_0162_origlabel_4.png,1,True,OK,0.9999928534030915,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0164_origlabel_2.png,abnormal_0164_origlabel_2.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0165_origlabel_2.png,abnormal_0165_origlabel_2.png,1,True,OK,0.9995500206947328,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0167_origlabel_1.png,abnormal_0167_origlabel_1.png,1,True,OK,0.999992048740387,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0168_origlabel_2.png,abnormal_0168_origlabel_2.png,1,True,OK,0.9439193785190583,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0169_origlabel_4.png,abnormal_0169_origlabel_4.png,1,True,OK,0.9999842822551728,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0171_origlabel_2.png,abnormal_0171_origlabel_2.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0174_origlabel_2.png,abnormal_0174_origlabel_2.png,1,True,OK,0.9490212202072144,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0179_origlabel_2.png,abnormal_0179_origlabel_2.png,1,True,OK,0.9949354529380798,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0181_origlabel_4.png,abnormal_0181_origlabel_4.png,1,True,OK,0.9953102827072143,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0185_origlabel_2.png,abnormal_0185_origlabel_2.png,1,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0187_origlabel_4.png,abnormal_0187_origlabel_4.png,1,True,OK,0.9990217745304109,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0189_origlabel_2.png,abnormal_0189_origlabel_2.png,1,True,OK,0.9877350449562072,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0193_origlabel_4.png,abnormal_0193_origlabel_4.png,1,True,OK,0.9988250315189362,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0195_origlabel_4.png,abnormal_0195_origlabel_4.png,1,True,OK,0.9979618728160858,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0197_origlabel_1.png,abnormal_0197_origlabel_1.png,1,True,OK,0.97857666015625,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0198_origlabel_1.png,abnormal_0198_origlabel_1.png,1,True,OK,0.9946093142032624,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\abnormal_0199_origlabel_4.png,abnormal_0199_origlabel_4.png,1,True,OK,0.9462054371833801,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0003_origlabel_0.png,normal_0003_origlabel_0.png,0,True,OK,0.9956090450286866,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0004_origlabel_0.png,normal_0004_origlabel_0.png,0,True,OK,0.9249559640884399,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0005_origlabel_0.png,normal_0005_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0006_origlabel_0.png,normal_0006_origlabel_0.png,0,True,OK,0.6287095516920089,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0008_origlabel_0.png,normal_0008_origlabel_0.png,0,True,OK,0.9647800326347351,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0010_origlabel_0.png,normal_0010_origlabel_0.png,0,True,OK,0.9939532697200776,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0016_origlabel_0.png,normal_0016_origlabel_0.png,0,True,OK,0.997078937292099,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0017_origlabel_0.png,normal_0017_origlabel_0.png,0,True,OK,0.9854430198669434,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0019_origlabel_0.png,normal_0019_origlabel_0.png,0,True,OK,0.9429373741149902,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0021_origlabel_0.png,normal_0021_origlabel_0.png,0,True,OK,0.8249036055803299,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0022_origlabel_0.png,normal_0022_origlabel_0.png,0,True,OK,0.9846485674381256,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0024_origlabel_0.png,normal_0024_origlabel_0.png,0,True,OK,0.8777207136154175,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0027_origlabel_0.png,normal_0027_origlabel_0.png,0,True,OK,0.9950569093227387,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0028_origlabel_0.png,normal_0028_origlabel_0.png,0,True,OK,0.9339714527130127,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0031_origlabel_0.png,normal_0031_origlabel_0.png,0,True,OK,0.8945280313491821,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0032_origlabel_0.png,normal_0032_origlabel_0.png,0,True,OK,0.9991012752056122,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0038_origlabel_0.png,normal_0038_origlabel_0.png,0,True,OK,0.9953585088253021,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0039_origlabel_0.png,normal_0039_origlabel_0.png,0,True,OK,0.9898985326290131,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0041_origlabel_0.png,normal_0041_origlabel_0.png,0,True,OK,0.8689036941528321,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0042_origlabel_0.png,normal_0042_origlabel_0.png,0,True,OK,0.9856908321380615,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0045_origlabel_0.png,normal_0045_origlabel_0.png,0,True,OK,0.9992493391036988,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0047_origlabel_0.png,normal_0047_origlabel_0.png,0,True,OK,0.987080329656601,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0049_origlabel_0.png,normal_0049_origlabel_0.png,0,True,OK,0.9683151245117188,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0050_origlabel_0.png,normal_0050_origlabel_0.png,0,True,OK,0.9810490489006043,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0055_origlabel_0.png,normal_0055_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0057_origlabel_0.png,normal_0057_origlabel_0.png,0,True,OK,0.9964595675468445,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0059_origlabel_0.png,normal_0059_origlabel_0.png,0,True,OK,0.951728343963623,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0062_origlabel_0.png,normal_0062_origlabel_0.png,0,True,OK,0.9810064494609834,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0064_origlabel_0.png,normal_0064_origlabel_0.png,0,True,OK,0.9943136990070344,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0066_origlabel_0.png,normal_0066_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0067_origlabel_0.png,normal_0067_origlabel_0.png,0,True,OK,0.9655067324638367,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0068_origlabel_0.png,normal_0068_origlabel_0.png,0,True,OK,0.9883669495582581,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0071_origlabel_0.png,normal_0071_origlabel_0.png,0,True,OK,0.9979836940765381,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0074_origlabel_0.png,normal_0074_origlabel_0.png,0,True,OK,0.9966001749038697,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0076_origlabel_0.png,normal_0076_origlabel_0.png,0,True,OK,0.9595173001289368,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0081_origlabel_0.png,normal_0081_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0082_origlabel_0.png,normal_0082_origlabel_0.png,0,True,OK,0.9647929668426514,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0084_origlabel_0.png,normal_0084_origlabel_0.png,0,True,OK,0.8707206845283508,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0085_origlabel_0.png,normal_0085_origlabel_0.png,0,True,OK,0.9996819376945496,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0086_origlabel_0.png,normal_0086_origlabel_0.png,0,True,OK,0.997405368089676,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0087_origlabel_0.png,normal_0087_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0091_origlabel_0.png,normal_0091_origlabel_0.png,0,True,OK,0.991975724697113,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0092_origlabel_0.png,normal_0092_origlabel_0.png,0,True,OK,0.9858576655387878,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0094_origlabel_0.png,normal_0094_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0095_origlabel_0.png,normal_0095_origlabel_0.png,0,True,OK,0.9848536312580108,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0098_origlabel_0.png,normal_0098_origlabel_0.png,0,True,OK,0.9154292464256287,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0100_origlabel_0.png,normal_0100_origlabel_0.png,0,True,OK,0.9837726891040802,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0103_origlabel_0.png,normal_0103_origlabel_0.png,0,True,OK,0.7899432361125946,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0104_origlabel_0.png,normal_0104_origlabel_0.png,0,True,OK,0.9893013656139374,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0106_origlabel_0.png,normal_0106_origlabel_0.png,0,True,OK,0.9975099682807923,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0108_origlabel_0.png,normal_0108_origlabel_0.png,0,True,OK,0.9396506726741791,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0110_origlabel_0.png,normal_0110_origlabel_0.png,0,True,OK,0.9997072458267212,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0111_origlabel_0.png,normal_0111_origlabel_0.png,0,True,OK,0.9041123509407044,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0112_origlabel_0.png,normal_0112_origlabel_0.png,0,True,OK,0.5974972039461136,0,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0115_origlabel_0.png,normal_0115_origlabel_0.png,0,True,OK,0.9997073233127595,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0116_origlabel_0.png,normal_0116_origlabel_0.png,0,True,OK,0.9738315284252167,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0117_origlabel_0.png,normal_0117_origlabel_0.png,0,True,OK,0.9465101599693299,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0118_origlabel_0.png,normal_0118_origlabel_0.png,0,True,OK,0.995489501953125,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0119_origlabel_0.png,normal_0119_origlabel_0.png,0,True,OK,0.9997786462306977,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0122_origlabel_0.png,normal_0122_origlabel_0.png,0,True,OK,0.9941710233688354,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0124_origlabel_0.png,normal_0124_origlabel_0.png,0,True,OK,0.7586234629154205,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0126_origlabel_0.png,normal_0126_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0128_origlabel_0.png,normal_0128_origlabel_0.png,0,True,OK,0.9999371767044068,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0129_origlabel_0.png,normal_0129_origlabel_0.png,0,True,OK,0.9927436709403992,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0132_origlabel_0.png,normal_0132_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0133_origlabel_0.png,normal_0133_origlabel_0.png,0,True,OK,0.9465032696723938,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0139_origlabel_0.png,normal_0139_origlabel_0.png,0,True,OK,0.9813980460166931,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0140_origlabel_0.png,normal_0140_origlabel_0.png,0,True,OK,0.9072586238384247,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0141_origlabel_0.png,normal_0141_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0142_origlabel_0.png,normal_0142_origlabel_0.png,0,True,OK,0.983575838804245,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0144_origlabel_0.png,normal_0144_origlabel_0.png,0,True,OK,0.9290374517440796,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0145_origlabel_0.png,normal_0145_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0150_origlabel_0.png,normal_0150_origlabel_0.png,0,True,OK,0.9997507274150849,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0151_origlabel_0.png,normal_0151_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0152_origlabel_0.png,normal_0152_origlabel_0.png,0,True,OK,0.999758130311966,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0153_origlabel_0.png,normal_0153_origlabel_0.png,0,True,OK,0.8288116514682771,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0154_origlabel_0.png,normal_0154_origlabel_0.png,0,True,OK,0.9991542577743531,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0158_origlabel_0.png,normal_0158_origlabel_0.png,0,True,OK,0.5359001636505127,0,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0159_origlabel_0.png,normal_0159_origlabel_0.png,0,True,OK,0.999248242378235,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0160_origlabel_0.png,normal_0160_origlabel_0.png,0,True,OK,0.9996094882488251,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0163_origlabel_0.png,normal_0163_origlabel_0.png,0,True,OK,0.9023567318916321,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0166_origlabel_0.png,normal_0166_origlabel_0.png,0,True,OK,0.9980995237827301,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0170_origlabel_0.png,normal_0170_origlabel_0.png,0,True,OK,0.9912845551967621,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0172_origlabel_0.png,normal_0172_origlabel_0.png,0,True,OK,0.955472993850708,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0173_origlabel_0.png,normal_0173_origlabel_0.png,0,True,OK,0.9870731174945832,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0175_origlabel_0.png,normal_0175_origlabel_0.png,0,True,OK,0.9981790959835053,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0176_origlabel_0.png,normal_0176_origlabel_0.png,0,True,OK,0.9983035087585449,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0177_origlabel_0.png,normal_0177_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0178_origlabel_0.png,normal_0178_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0180_origlabel_0.png,normal_0180_origlabel_0.png,0,True,OK,0.94205020070076,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0182_origlabel_0.png,normal_0182_origlabel_0.png,0,True,OK,0.9977189421653747,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0183_origlabel_0.png,normal_0183_origlabel_0.png,0,True,OK,0.9396542370319367,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0184_origlabel_0.png,normal_0184_origlabel_0.png,0,True,OK,0.9701970338821411,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0186_origlabel_0.png,normal_0186_origlabel_0.png,0,True,OK,0.9991478860378266,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0188_origlabel_0.png,normal_0188_origlabel_0.png,0,True,OK,0.995810866355896,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0190_origlabel_0.png,normal_0190_origlabel_0.png,0,False,Image trace does not look like a clean ECG beat. Crop a single lead strip or one beat only.,,,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0191_origlabel_0.png,normal_0191_origlabel_0.png,0,True,OK,0.6862721532583237,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0192_origlabel_0.png,normal_0192_origlabel_0.png,0,True,OK,0.972900652885437,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0194_origlabel_0.png,normal_0194_origlabel_0.png,0,True,OK,0.9081203579902649,1,0.6
+C:\Users\hebas\OneDrive\Desktop\Project ECG\TestImages\normal_0196_origlabel_0.png,normal_0196_origlabel_0.png,0,True,OK,0.8801485896110535,1,0.6

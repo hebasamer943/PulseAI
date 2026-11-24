@@ -1,6 +1,39 @@
+
+# Python virtual environments
 .venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
-Dataset/
+*.pyo
+.pytest_cache/
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+
+# IDE and workspace
 .vscode/
+.idea/
+*.code-workspace
+
+# Datasets and training cache
+/Dataset/
+/AI/models_experiments/cache/
+/AI/models_experiments/mitdb/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files and logs
+*.log
+*.tmp
+
+# Python build files
+build/
+dist/
+*.egg-info/
